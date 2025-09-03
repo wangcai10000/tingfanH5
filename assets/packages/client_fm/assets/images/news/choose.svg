@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>选集</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-446, -214)">
+            <g id="选集" transform="translate(446, 214)">
+                <g id="编组-3" transform="translate(1, 0.9393)">
+                    <rect id="矩形" fill="#FFFFFF" x="0" y="0" width="24" height="24" rx="8"></rect>
+                    <g id="编组-14" transform="translate(6, 8)" fill="#000000">
+                        <path d="M0.69409101,0 C0.802053326,0 0.908525474,0.0251992915 1.00504379,0.0735736354 L3.61690824,1.37985292 C3.85172957,1.49754383 4,1.73770659 4,2.00037028 C4,2.26303396 3.85172957,2.50319672 3.61690824,2.62088764 L1.00504379,3.9271669 C0.789884896,4.03498297 0.534231432,4.02365128 0.329455335,3.89722184 C0.124679238,3.7707924 0,3.54731041 0,3.30664954 L0,0.694090996 C0,0.310755122 0.310755135,0 0.69409101,0 Z" id="路径"></path>
+                        <rect id="矩形" x="6" y="0.939349261" width="7" height="2" rx="1"></rect>
+                        <rect id="矩形备份" x="0" y="6.93934926" width="13" height="2" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="27px" viewBox="0 0 26 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>定时</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-354, -214)">
+            <g id="定时" transform="translate(354, 214.0798)">
+                <g id="071_定时" transform="translate(0, 1)">
+                    <path d="M1.25029899,12.359537 C1.25029899,18.7108117 6.39902437,23.859537 12.750299,23.859537 C19.1015736,23.859537 24.250299,18.7108117 24.250299,12.359537 C24.250299,6.00826241 19.1015736,0.859537031 12.750299,0.859537031 C6.39902437,0.859537031 1.25029899,6.00826241 1.25029899,12.359537 L1.25029899,12.359537 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="矩形" fill="#000000" x="11.1890431" y="6.42018777" width="2" height="7" rx="1"></rect>
+                    <rect id="矩形备份-4" fill="#000000" transform="translate(14.7229, 12.4202) rotate(90) translate(-14.7229, -12.4202)" x="13.7228867" y="8.92018777" width="2" height="7" rx="1"></rect>
+                    <rect id="矩形" fill="#FFFFFF" transform="translate(22.7229, 2.9202) rotate(-42) translate(-22.7229, -2.9202)" x="21.7228867" y="-0.0798122303" width="2" height="6" rx="1"></rect>
+                    <rect id="矩形备份-5" fill="#FFFFFF" transform="translate(2.7229, 2.9202) scale(-1, 1) rotate(-41) translate(-2.7229, -2.9202)" x="1.72288667" y="-0.0798122303" width="2" height="6" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

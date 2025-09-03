@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 8</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="作品播放" transform="translate(-272, -702)" fill="#FFFFFF">
+            <g id="编组-11" transform="translate(25, 677)">
+                <g id="编组-9" transform="translate(57, 25)">
+                    <g id="编组-8" transform="translate(190, 0)">
+                        <path d="M3.47045505,0 C4.01026663,0 4.54262737,0.125996458 5.02521893,0.367868177 L15.0845412,6.89926458 C16.2586479,7.48771917 17,8.68853297 17,10.0018514 C17,11.3151698 16.2586479,12.5159836 15.0845412,13.1044382 L5.02521893,19.6358345 C3.94942448,20.1749149 2.67115716,20.1182564 1.64727667,19.4861092 C0.623396191,18.853962 0,17.736552 0,16.5332477 L0,3.47045498 C0,1.55377561 1.55377568,0 3.47045505,0 Z" id="路径"></path>
+                        <rect id="矩形" x="18" y="9.09494702e-13" width="4" height="20" rx="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
