@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: PingFangHK,Microsoft YaHei,helvetica,arial,sans-serif;
+}
+.page-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    filter: blur(30px);
+    z-index: -1;
+}
+#page-loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: none;
+}
+#page-loading::after{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20px,-20px);
+    background-image: url(../icons//loading.png);
+    background-size: contain;
+    animation: loadingRotate 1s linear infinite;
+}
+@keyframes loadingRotate {
+    from {
+      transform:rotate(0)
+    }
+    to{
+      transform:rotate(360deg)
+    }
+  }
+.page-main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.page-main > .click-player{
+    color: white;
+    font-size: 18px;
+    animation: opacityAni 1s linear infinite alternate;
+    flex: none;
+}
+@keyframes opacityAni {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+    
+}
+.page-main > .swiper-box{
+    width: 90%;
+    padding: 30px 0;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-main > .swiper-box > .swiper-item{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    background-size: cover;
+    border-radius: 8px;
+    transition: all .3s ease;
+}
+
+.page-main > .swiper-box > .swiper-item.active{
+    transform: scale(1.3);
+}
+
+.page-main > .player-title{
+    width: 80%;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-break: break-all;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+    color: white;
+    flex: none;
+}
+.page-main > .player-desc{
+    width: 80%;
+    overflow: hidden;
+    white-space: pre-wrap;
+    word-break: break-all;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: white;
+    flex: none;
+    /* height: 260px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 13;
+    -webkit-box-orient: vertical;
+}
+.page-main > .current-cover{
+    width: 260px;
+    height: 260px;
+    border-radius: 8px;
+    flex: none;
+    margin-top: 30px;
+    background-size: cover;
+}
+.page-main > .player-controller{
+    width: 80%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+.page-main > .player-controller > .pres-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFDA44 0%, #FFBB10 100%);
+}
+.page-main > .player-controller > .pres-icon::after{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    content: "";
+    background-image: url(../icons/pres-icon.png);
+    background-size: contain;
+}
+.page-main > .player-controller > .center-btn{
+    width: 70px;
+    height: 42px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFDA44 0%, #FFBB10 100%);
+}
+.page-main > .player-controller > .player-icon::after{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    content: "";
+    background-image: url(../icons/player-icon.png);
+    background-size: contain;
+}
+
+.page-main > .player-controller > .pause-icon::after{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    content: "";
+    background-image: url(../icons/pause-icon.png);
+    background-size: contain;
+}
+
+
+.page-main > .player-controller > .next-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #FFDA44 0%, #FFBB10 100%);
+}
+.page-main > .player-controller > .next-icon::after{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    content: "";
+    background-image: url(../icons/next-icon.png);
+    background-size: contain;
+}
+.page-main > .to-home-btn{
+    width: 80%;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background: linear-gradient(180deg, #FFDA44 0%, #FFBB10 100%);
+    flex: none;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 18px;
+}
